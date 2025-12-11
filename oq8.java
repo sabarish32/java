@@ -1,8 +1,11 @@
 import java.util.Scanner;
 public class oq8 {
-  public class void main(String[]args){
-    System.out.println(" ");
-    int a=nextInt();
-    
-  }  
+    public static void main(String[]args)
+    {
+        Scanner sc= new Scanner(System.in);
+        int n= sc.nextInt();
+
+        int result= n%10;
+        System.out.println(result);
+    }
 }
