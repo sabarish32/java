@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 public class Q7 {
     public static void main(String[] args){
-        Scanner s = new Scanner(System.in);
-        int num = s.nextInt();
+        Scanner sc= new Scanner(System.in);
+        int num = sc.nextInt();
         System.out.printf("Hex value: %X", num);
-        s.close();
+        sc.close();
     }
 }

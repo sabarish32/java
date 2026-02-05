@@ -10,3 +10,4 @@ public class Q11 {
     sc.close();
     }   
 }
+  

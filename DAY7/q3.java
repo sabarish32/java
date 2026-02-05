@@ -9,7 +9,7 @@ public class q3
        for(int i=0;i<n;i++)
        {
          
-          arr[i]= sc.nextInt();
+          arr[i]= sc.nextInt(); 
        }
        int sum=0,sum1=0;
 
@@ -18,9 +18,9 @@ public class q3
           sum=sum+arr[i];
        }
        for(int i=0;i<n;i++){
-         int temp=sum;                                   //15  15  15  15   15
-         for(int j=i;j<=i;j++){                          //1   3   6   10   15
-            sum1=sum1+arr[j];                            //14  12  9   5    0
+         int temp=sum;                                    //15  15  15  15   15
+         for(int j=i;j<=i;j++){                          // 1   3   6   10   15
+            sum1=sum1+arr[j];                            // 14  12  9   5    0
             arr[i]=temp-sum1;
 
             
